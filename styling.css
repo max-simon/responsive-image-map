@@ -1,0 +1,26 @@
+.resp-img-map-container {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+.resp-img-map-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.resp-img-map-container .pic-container {
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  display: block;
+  position: absolute;
+}
+.resp-img-map-container .pic-container.overlay {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.resp-img-map-container .pic-container.overlay.active {
+  opacity: 1;
+}
